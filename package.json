@@ -1,0 +1,26 @@
+{
+  "name": "cloudflare-custom-pages",
+  "version": "1.0.0",
+  "description": "Custom Pages for Cloudflare Websites",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lectron/cloudflare-custom-pages.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lectron/cloudflare-custom-pages/issues"
+  },
+  "homepage": "https://github.com/lectron/cloudflare-custom-pages#readme",
+  "devDependencies": {
+    "connect-livereload": "^0.6.1",
+    "express": "^4.17.1",
+    "livereload": "^0.9.3",
+    "serve-index": "^1.9.1"
+  }
+}
