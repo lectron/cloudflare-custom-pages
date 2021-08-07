@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Connection Error</title>
+    <title>Security Challenge</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/mini.css/3.0.1/mini-default.min.css"
@@ -26,6 +26,9 @@
         text-align: center;
         padding: 0 24px;
       }
+      .box {
+        text-align: unset;
+      }
       .logo {
         /* filter: invert(1); */
         text-shadow: 10px 10px 3px black;
@@ -35,13 +38,20 @@
       .title {
         font-size: 3rem;
       }
+      .cferror_details {
+        padding: 16px 32px;
+        list-style: none;
+        font-style: italic;
+        text-align: left;
+      }
     </style>
   </head>
   <body>
     <div class="container">
       <img src="./logo.svg" class="logo" />
-      <h1 class="title">Error occurred!</h1>
-      <div>::CAPTCHA_BOX::</div>
+      <h1 class="title">One more step</h1>
+      <p>Please complete this security check to continue</p>
+      <div class="box">::CAPTCHA_BOX::</div>
       <p>
         <small><strong>Ray ID:</strong> ::RAY_ID::</small>
       </p>

@@ -19,12 +19,33 @@
         line-height: 1.5;
         margin: 0;
       }
-
       .container {
         margin: 50px auto;
         max-width: 600px;
         text-align: center;
         padding: 0 24px;
+      }
+      .box {
+        /* text-align: left; */
+      }
+      .always_online ul {
+        list-style: none;
+        font-style: italic;
+        font-size: 0.85rem;
+      }
+      .cf_reload_button {
+        background-color: #6d7680;
+        color: #f9fafc !important;
+        border-radius: 7px;
+        padding: 12px 24px;
+        display: block;
+        margin: 0 auto;
+        text-decoration: none;
+        width: 280px;
+        font-weight: bold;
+      }
+      .cf_reload_button:hover {
+        color: #e6e7ec !important;
       }
       .logo {
         /* filter: invert(1); */
@@ -40,8 +61,8 @@
   <body>
     <div class="container">
       <img src="./logo.svg" class="logo" />
-      <h1 class="title">Error occurred!</h1>
-      <div>::ALWAYS_ONLINE_NO_COPY_BOX::</div>
+      <!-- <h1 class="title">Error occurred!</h1> -->
+      <div class="box">::ALWAYS_ONLINE_NO_COPY_BOX::</div>
       <p>
         <small><strong>Ray ID:</strong> ::RAY_ID::</small>
       </p>

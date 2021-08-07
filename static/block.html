@@ -26,6 +26,9 @@
         text-align: center;
         padding: 0 24px;
       }
+      .box {
+        text-align: unset;
+      }
       .logo {
         /* filter: invert(1); */
         text-shadow: 10px 10px 3px black;
@@ -35,13 +38,25 @@
       .title {
         font-size: 3rem;
       }
+      .cferror_details {
+        padding: 16px 32px;
+        list-style: none;
+        font-style: italic;
+        text-align: left;
+      }
     </style>
   </head>
   <body>
     <div class="container">
       <img src="./logo.svg" class="logo" />
-      <h1 class="title">Error occurred!</h1>
-      <div>::GEO::</div>
+      <h1 class="title">Access denied!</h1>
+      <div class="box">::GEO::</div>
+      <div>
+        <p>What happened?</p>
+        <p>
+          The owner of this website has banned your IP address (::CLIENT_IP::).
+        </p>
+      </div>
       <p>
         <small><strong>Ray ID:</strong> ::RAY_ID::</small>
       </p>
