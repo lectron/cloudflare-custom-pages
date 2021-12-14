@@ -1,0 +1,58 @@
+body {
+  background-color: #0c0c0d;
+  color: #f9fafc;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Helvetica Neue, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.container {
+  margin: 50px auto;
+  max-width: 600px;
+  text-align: center;
+  padding: 0 24px;
+}
+.logo {
+  /* filter: invert(1); */
+  width: 500px;
+  height: 150px;
+  max-width: 100%;
+  object-fit: cover;
+}
+.title {
+  font-size: 3rem;
+}
+
+.cferror_details {
+  padding: 16px 32px;
+  list-style: none;
+  font-style: italic;
+  text-align: left;
+}
+
+.always_online ul {
+  list-style: none;
+  font-style: italic;
+  font-size: 0.85rem;
+}
+.cf_reload_button {
+  background-color: #6d7680;
+  color: #f9fafc !important;
+  border-radius: 7px;
+  padding: 12px 24px;
+  display: block;
+  margin: 0 auto;
+  text-decoration: none;
+  width: 280px;
+  font-weight: bold;
+}
+.cf_reload_button:hover {
+  color: #e6e7ec !important;
+}
+
+.box-geo,
+.box-challenge {
+  text-align: unset;
+}
